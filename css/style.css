@@ -79,7 +79,7 @@ body {
   margin-top: 10rem; }
   .pacotes .pacotes__conteiner {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
     gap: 1.5rem; }
     .pacotes .pacotes__conteiner .pocotes__box {
       border: 2px solid #10221b;

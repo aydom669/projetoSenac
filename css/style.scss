@@ -139,7 +139,7 @@ body {
   margin-top: 10rem;
 
   .pacotes__conteiner {
-    @include grid(45rem);
+    @include grid(35rem);
 
     .pocotes__box {
       border: $borda;
