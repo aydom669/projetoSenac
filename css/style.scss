@@ -67,6 +67,14 @@ body {
   gap: 1.5rem;
 }
 
+.titulo{
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 5.5rem;
+  font-size: 4rem;
+  color: #10221b;
+}
+
 .header {
   padding: 2rem;
   align-items: center;
@@ -75,6 +83,7 @@ body {
   left: 0;
   z-index: 10000;
   background: transparent;
+  display: flex;
 
   .header__logo {
     font-size: 2.5rem;
@@ -100,6 +109,7 @@ body {
       text-decoration: none;
       color: $cor-primaria;
       margin-right: 1.5rem;
+      text-decoration: none;
 
       &:hover {
         color: #efa4f1;
@@ -132,75 +142,66 @@ body {
 /* Header End
 ============================================= */
 
-/* Pacotes
-    ============================================ */
-
-.pacotes {
-  margin-top: 10rem;
-
-  .pacotes__conteiner {
-    @include grid(35rem);
-
-    .pocotes__box {
-      border: $borda;
-      background: $branco;
-
-      &:hover {
-        background: $cor-primaria;
-        cursor: pointer;
-
-        .content > * {
-          color: #fff;
-        }
-      }
-    }
-
-    figure {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+  
+.receita__section{
+  line-height: 2;
+    
+  .slide{
       padding: 2rem;
-      padding-bottom: 0;
-      height: 25rem;
-      border-radius: 0.5rem;
-
-      img {
-        width: 90%;
-        object-fit: cover;
-        border-radius: 0.5rem;
-        margin-top: 2rem;
-      }
-    }
-
-    .content {
       text-align: center;
-      line-height: 2;
-      padding: 3rem;
-
-      h3 {
-        font-size: 2rem;
+      background: $cinza__claro;
+      
+      
+      img{
+          width: 100%;
+          height: 32rem;
+          border-radius: .7rem;
+          object-fit: cover;
       }
 
-      p {
-        font-size: 1.5rem;
-        padding-bottom: 1rem;
+      
+
+      h3{
+          font-size: 2rem;
+          color: #10221b;
       }
 
-      span {
-        font-size: 2rem;
+      p{
+          font-size: 1.2rem;
+          padding: 1rem 0;
+          line-height: 2;
+          color: $Black;
       }
 
-      ol {
-        font-size: 1.5rem;
-      }
+  }
 
-      ul {
-        font-size: 1.5rem;
-      }
+  .swiper-slide{
+    
+    background: $branco;
+    p {
+      font-size: 1.5rem;
+      padding-bottom: 1rem;
     }
   }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  span {
+    font-size: 2rem;
+  }
+
+  ol {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    font-size: 1.5rem;
+  }
 }
+
+
 
 /* Pacotes / end
   ============================================ */
