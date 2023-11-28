@@ -36,6 +36,7 @@ $sombra: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 // fonts
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Mono&display=swap');
 
 section {
   padding: 5rem 3%;
@@ -145,6 +146,7 @@ body {
   
 .receita__section{
   line-height: 2;
+  font-family: 'Roboto', sans-serif;
     
   .slide{
       padding: 2rem;
@@ -172,7 +174,12 @@ body {
           line-height: 2;
           color: $Black;
       }
-
+      &:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 40px 70px rgba(0 , 0 , 0 , 0.5);
+        transition: 0.6s linear;
+        cursor: pointer;
+    }
   }
 
   .swiper-slide{
@@ -190,6 +197,7 @@ body {
 
   span {
     font-size: 2rem;
+    font-weight: 900;
   }
 
   ol {
