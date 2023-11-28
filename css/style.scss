@@ -71,9 +71,11 @@ body {
 .titulo{
   font-family: 'poppins', sans-serif;
   text-align: center;
-  margin-bottom: 5.5rem;
+  margin-bottom: 5rem;
   font-size: 4rem;
   color: #10221b;
+  font-weight: bold;
+  
 }
 
 .header {
@@ -85,6 +87,8 @@ body {
   z-index: 10000;
   background: transparent;
   display: flex;
+  position: fixed;
+ 
 
   .header__logo {
     font-size: 2.5rem;
@@ -106,11 +110,12 @@ body {
     }
 
     a {
-      font-size: 1.7rem;
+      font-size: 2rem;
       text-decoration: none;
       color: $cor-primaria;
       margin-right: 1.5rem;
       text-decoration: none;
+      border: none;
 
       &:hover {
         color: #efa4f1;
@@ -147,6 +152,8 @@ body {
 .receita__section{
   line-height: 2;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 20rem;
   
     
   .slide{
@@ -199,6 +206,10 @@ body {
   span {
     font-size: 2rem;
     font-weight: 900;
+  }
+
+  .spanInfo {
+    font-size: 1.5rem;
   }
 
   ol {

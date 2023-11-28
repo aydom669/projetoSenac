@@ -1,4 +1,23 @@
 
+// Efeito no header
+
+window.onscroll = (e) => {
+  navBar.classList.remove('active');
+
+  if(window.scrollY > 0){
+      document.querySelector('.header')
+      .classList.add('active');
+  } else {
+      document.querySelector('.header')
+      .classList.remove('active');
+  }
+
+  e.stopPropagation
+
+};
+
+// ================================
+
 // menu mobile
 
 let navBar = document.querySelector(".header .nav");
@@ -36,3 +55,4 @@ var swiper = new Swiper(".receitas__container", {
 });
 
 // ====================================
+
