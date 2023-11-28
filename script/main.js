@@ -1,4 +1,23 @@
 
+// menu mobile
+
+let navBar = document.querySelector(".header .nav");
+
+document.querySelector('#menu-btn')
+.addEventListener('click', ()=>{
+    navBar.classList.add('active')
+})
+
+document.querySelector('#nav-close')
+.addEventListener('click', ()=>{
+    navBar.classList.remove('active')
+})
+
+// ===================================
+
+
+// Carrocel configurações
+
 var swiper = new Swiper(".receitas__container", {
   loop:true,
   grabCursor: true,
@@ -15,3 +34,5 @@ var swiper = new Swiper(".receitas__container", {
     },
   },
 });
+
+// ====================================
