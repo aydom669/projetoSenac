@@ -30,7 +30,7 @@ $Black: #10221b;
 $branco: #fff;
 $cinza__claro: #eee;
 $borda: 2px solid $Black;
-$sombra: 0 0.5rem 1rem #ff5722;
+$sombra: 0 0.5rem 1rem #1a1919;
 
 $corTeste: #F49084;
 $corTesteDois: #F4A79F;
@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  background: #F4A79F;
+  background: #3d2523;
 }
 
 @mixin grid($val) {
@@ -78,7 +78,7 @@ body {
   text-align: center;
   margin-bottom: 5rem;
   font-size: 4rem;
-  color: #10221b;
+  color: #f3f3f3;
   font-weight: bold;
   
 }
@@ -124,7 +124,7 @@ body {
       margin-right: 1.5rem;
 
       &:hover {
-        color: #efa4f1;
+        color: $cor-primaria;
         transition: 0.5s;
       }
     }

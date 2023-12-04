@@ -28,14 +28,14 @@ html {
     background: #d7ccc8; }
 
 body {
-  background: #F4A79F; }
+  background: #3d2523; }
 
 .titulo {
   font-family: 'poppins', sans-serif;
   text-align: center;
   margin-bottom: 5rem;
   font-size: 4rem;
-  color: #10221b;
+  color: #f3f3f3;
   font-weight: bold; }
 
 .header {
@@ -68,7 +68,7 @@ body {
     color: #000000;
     margin-right: 1.5rem; }
     .header .nav a:hover {
-      color: #efa4f1;
+      color: #795548;
       transition: 0.5s; }
   .header .icons a,
   .header .icons div {
@@ -82,7 +82,7 @@ body {
     display: none; }
   .header.active {
     background: #fff;
-    box-shadow: 0 0.5rem 1rem #ff5722; }
+    box-shadow: 0 0.5rem 1rem #1a1919; }
 
 /* Header End
 ============================================= */
